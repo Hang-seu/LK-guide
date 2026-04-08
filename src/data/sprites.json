@@ -1,0 +1,124 @@
+{
+  "sprites": [
+    {
+      "id": 1,
+      "name": "火花",
+      "types": ["火"],
+      "stats": {
+        "hp": 45,
+        "attack": 60,
+        "defense": 50,
+        "spAtk": 70,
+        "spDef": 50,
+        "speed": 65
+      },
+      "skills": [1, 2, 3, 4],
+      "description": "火焰精灵，性格活泼好动"
+    },
+    {
+      "id": 2,
+      "name": "焰火",
+      "types": ["火"],
+      "stats": {
+        "hp": 58,
+        "attack": 75,
+        "defense": 60,
+        "spAtk": 85,
+        "spDef": 65,
+        "speed": 80
+      },
+      "skills": [1, 2, 3, 4, 5],
+      "description": "火花的进化形态，火焰更加炽热"
+    },
+    {
+      "id": 3,
+      "name": "烈火战神",
+      "types": ["火", "龙"],
+      "stats": {
+        "hp": 78,
+        "attack": 95,
+        "defense": 80,
+        "spAtk": 110,
+        "spDef": 85,
+        "speed": 100
+      },
+      "skills": [1, 2, 3, 4, 5, 6, 7],
+      "description": "焰火的最终进化，传说中的火龙精灵"
+    },
+    {
+      "id": 4,
+      "name": "水蓝蓝",
+      "types": ["水"],
+      "stats": {
+        "hp": 50,
+        "attack": 55,
+        "defense": 60,
+        "spAtk": 65,
+        "spDef": 65,
+        "speed": 50
+      },
+      "skills": [10, 11, 12, 13],
+      "description": "水系精灵，性格温柔"
+    },
+    {
+      "id": 5,
+      "name": "波波拉",
+      "types": ["水"],
+      "stats": {
+        "hp": 65,
+        "attack": 70,
+        "defense": 75,
+        "spAtk": 80,
+        "spDef": 80,
+        "speed": 65
+      },
+      "skills": [10, 11, 12, 13, 14],
+      "description": "水蓝蓝的进化形态"
+    },
+    {
+      "id": 6,
+      "name": "圣水守护",
+      "types": ["水", "妖精"],
+      "stats": {
+        "hp": 85,
+        "attack": 90,
+        "defense": 95,
+        "spAtk": 105,
+        "spDef": 105,
+        "speed": 85
+      },
+      "skills": [10, 11, 12, 13, 14, 15, 16],
+      "description": "波波拉的最终进化，水系守护神"
+    },
+    {
+      "id": 7,
+      "name": "喵喵",
+      "types": ["普通"],
+      "stats": {
+        "hp": 40,
+        "attack": 45,
+        "defense": 40,
+        "spAtk": 40,
+        "spDef": 40,
+        "speed": 65
+      },
+      "skills": [20, 21, 22],
+      "description": "可爱的小猫精灵"
+    },
+    {
+      "id": 8,
+      "name": "格兰球",
+      "types": ["草"],
+      "stats": {
+        "hp": 55,
+        "attack": 60,
+        "defense": 55,
+        "spAtk": 70,
+        "spDef": 60,
+        "speed": 55
+      },
+      "skills": [30, 31, 32, 33],
+      "description": "草系精灵，充满生机"
+    }
+  ]
+}

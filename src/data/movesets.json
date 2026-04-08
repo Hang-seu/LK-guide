@@ -1,0 +1,60 @@
+{
+  "movesets": [
+    {
+      "id": 1,
+      "spriteId": 3,
+      "spriteName": "烈火战神",
+      "name": "特殊输出型",
+      "style": "special",
+      "skills": [
+        { "id": 5, "name": "大字爆炎", "type": "火", "category": "特殊" },
+        { "id": 7, "name": "龙之波动", "type": "龙", "category": "特殊" },
+        { "id": 4, "name": "喷射火焰", "type": "火", "category": "特殊" },
+        { "id": 6, "name": "龙之怒", "type": "龙", "category": "特殊" }
+      ],
+      "description": "利用高特攻种族值进行特殊输出，大字爆炎作为主要输出技能，龙之波动补充打击面。适合PVP对战使用。"
+    },
+    {
+      "id": 2,
+      "spriteId": 3,
+      "spriteName": "烈火战神",
+      "name": "物理输出型",
+      "style": "physical",
+      "skills": [
+        { "id": 2, "name": "火焰冲击", "type": "火", "category": "物理" },
+        { "id": 7, "name": "龙之波动", "type": "龙", "category": "特殊" },
+        { "id": 4, "name": "喷射火焰", "type": "火", "category": "特殊" },
+        { "id": 6, "name": "龙之怒", "type": "龙", "category": "特殊" }
+      ],
+      "description": "混合输出型配招，物理和特殊技能搭配使用，出其不意打击对手。"
+    },
+    {
+      "id": 3,
+      "spriteId": 6,
+      "spriteName": "圣水守护",
+      "name": "特殊输出型",
+      "style": "special",
+      "skills": [
+        { "id": 13, "name": "水炮", "type": "水", "category": "特殊" },
+        { "id": 15, "name": "月亮之力", "type": "妖精", "category": "特殊" },
+        { "id": 12, "name": "冲浪", "type": "水", "category": "特殊" },
+        { "id": 16, "name": "魔法闪耀", "type": "妖精", "category": "特殊" }
+      ],
+      "description": "水+妖精双属性打击面广，水炮和月亮之力作为主要输出技能。"
+    },
+    {
+      "id": 4,
+      "spriteId": 6,
+      "spriteName": "圣水守护",
+      "name": "辅助型",
+      "style": "support",
+      "skills": [
+        { "id": 12, "name": "冲浪", "type": "水", "category": "特殊" },
+        { "id": 15, "name": "月亮之力", "type": "妖精", "category": "特殊" },
+        { "id": 14, "name": "潮汐", "type": "水", "category": "特殊" },
+        { "id": 16, "name": "魔法闪耀", "type": "妖精", "category": "特殊" }
+      ],
+      "description": "兼顾输出与辅助，适合团队作战。"
+    }
+  ]
+}

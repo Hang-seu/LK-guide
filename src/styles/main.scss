@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Microsoft YaHei", "PingFang SC", "Segoe UI", Arial, sans-serif;
+  font-size: 14px;
+  color: #334155;
+  background: #eff6ff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.type-火 {
+  background: #F08030 !important;
+  color: #fff !important;
+  border-color: #F08030 !important;
+}
+
+.type-水 {
+  background: #6890F0 !important;
+  color: #fff !important;
+  border-color: #6890F0 !important;
+}
+
+.type-草 {
+  background: #78C850 !important;
+  color: #fff !important;
+  border-color: #78C850 !important;
+}
+
+.type-电 {
+  background: #F8D030 !important;
+  color: #303133 !important;
+  border-color: #F8D030 !important;
+}
+
+.type-冰 {
+  background: #98D8D8 !important;
+  color: #303133 !important;
+  border-color: #98D8D8 !important;
+}
+
+.type-岩石 {
+  background: #B8A038 !important;
+  color: #fff !important;
+  border-color: #B8A038 !important;
+}
+
+.type-地面 {
+  background: #E0C068 !important;
+  color: #303133 !important;
+  border-color: #E0C068 !important;
+}
+
+.type-飞行 {
+  background: #A890F0 !important;
+  color: #fff !important;
+  border-color: #A890F0 !important;
+}
+
+.type-毒 {
+  background: #A040A0 !important;
+  color: #fff !important;
+  border-color: #A040A0 !important;
+}
+
+.type-虫 {
+  background: #A8B820 !important;
+  color: #fff !important;
+  border-color: #A8B820 !important;
+}
+
+.type-幽灵 {
+  background: #705898 !important;
+  color: #fff !important;
+  border-color: #705898 !important;
+}
+
+.type-钢 {
+  background: #B8B8D0 !important;
+  color: #303133 !important;
+  border-color: #B8B8D0 !important;
+}
+
+.type-龙 {
+  background: #7038F8 !important;
+  color: #fff !important;
+  border-color: #7038F8 !important;
+}
+
+.type-恶 {
+  background: #705848 !important;
+  color: #fff !important;
+  border-color: #705848 !important;
+}
+
+.type-妖精 {
+  background: #EE99AC !important;
+  color: #303133 !important;
+  border-color: #EE99AC !important;
+}
+
+.type-超能 {
+  background: #F85888 !important;
+  color: #fff !important;
+  border-color: #F85888 !important;
+}
+
+.type-格斗 {
+  background: #C03028 !important;
+  color: #fff !important;
+  border-color: #C03028 !important;
+}
+
+.type-普通 {
+  background: #A8A878 !important;
+  color: #fff !important;
+  border-color: #A8A878 !important;
+}
+
+:root {
+  --lk-bg: #eff6ff;
+  --lk-primary: #facc15;
+  --lk-primary-deep: #eab308;
+  --lk-ink: #1e293b;
+  --lk-muted: #64748b;
+  --lk-bubble: #ffffff;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+.el-card {
+  border-radius: 18px;
+  border: 2px solid #dbeafe;
+  box-shadow: 0 10px 24px rgba(148, 163, 184, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  .el-card__header {
+    padding: 16px 20px;
+    font-weight: 600;
+    color: var(--lk-ink);
+  }
+}
+
+.el-button {
+  border-radius: 999px;
+  border-width: 2px;
+  font-weight: 600;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.el-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(250, 204, 21, 0.35);
+}
+
+.el-button--primary {
+  --el-button-bg-color: var(--lk-primary);
+  --el-button-border-color: var(--lk-primary);
+  --el-button-hover-bg-color: var(--lk-primary-deep);
+  --el-button-hover-border-color: var(--lk-primary-deep);
+  --el-button-text-color: #1f2937;
+}
+
+.el-input {
+  .el-input__wrapper {
+    border-radius: 14px;
+    border: 2px solid #dbeafe;
+    box-shadow: none;
+  }
+}
+
+.el-select {
+  .el-select__wrapper {
+    border-radius: 14px;
+    border: 2px solid #dbeafe;
+  }
+}
+
+.el-tag {
+  border-radius: 999px;
+  border-width: 2px;
+  font-weight: 600;
+}
+
+.page-header {
+  margin-bottom: 24px;
+  padding: 20px 24px;
+  border-radius: 18px;
+  border: 2px solid #dbeafe;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.96), rgba(239, 246, 255, 0.98));
+  box-shadow: 0 12px 24px rgba(148, 163, 184, 0.16);
+
+  h1 {
+    font-size: 30px;
+    margin-bottom: 8px;
+    color: var(--lk-ink);
+  }
+
+  p {
+    color: var(--lk-muted);
+  }
+}
+
+.filter-section {
+  margin-bottom: 24px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 16px;
+  border: 2px solid #dbeafe;
+  box-shadow: 0 8px 20px rgba(148, 163, 184, 0.16);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+
+  &:hover {
+    background: #a8a8a8;
+  }
+}

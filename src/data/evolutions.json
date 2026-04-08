@@ -1,0 +1,32 @@
+{
+  "evolutions": [
+    {
+      "chain": [1, 2, 3],
+      "stages": [
+        { "id": 1, "level": 1, "method": "初始" },
+        { "id": 2, "level": 16, "method": "升级" },
+        { "id": 3, "level": 36, "method": "升级" }
+      ]
+    },
+    {
+      "chain": [4, 5, 6],
+      "stages": [
+        { "id": 4, "level": 1, "method": "初始" },
+        { "id": 5, "level": 16, "method": "升级" },
+        { "id": 6, "level": 36, "method": "升级" }
+      ]
+    },
+    {
+      "chain": [7],
+      "stages": [
+        { "id": 7, "level": 1, "method": "初始" }
+      ]
+    },
+    {
+      "chain": [8],
+      "stages": [
+        { "id": 8, "level": 1, "method": "初始" }
+      ]
+    }
+  ]
+}

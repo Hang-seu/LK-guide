@@ -1,0 +1,214 @@
+{
+  "skills": [
+    {
+      "id": 1,
+      "name": "火花",
+      "type": "火",
+      "category": "特殊",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 25,
+      "effect": "有10%几率使目标灼伤"
+    },
+    {
+      "id": 2,
+      "name": "火焰冲击",
+      "type": "火",
+      "category": "物理",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 15,
+      "effect": "有10%几率使目标灼伤"
+    },
+    {
+      "id": 3,
+      "name": "火焰旋涡",
+      "type": "火",
+      "category": "特殊",
+      "power": 35,
+      "accuracy": 85,
+      "pp": 15,
+      "effect": "使目标无法逃跑，持续2-5回合"
+    },
+    {
+      "id": 4,
+      "name": "喷射火焰",
+      "type": "火",
+      "category": "特殊",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "effect": "有10%几率使目标灼伤"
+    },
+    {
+      "id": 5,
+      "name": "大字爆炎",
+      "type": "火",
+      "category": "特殊",
+      "power": 110,
+      "accuracy": 85,
+      "pp": 5,
+      "effect": "有10%几率使目标灼伤"
+    },
+    {
+      "id": 6,
+      "name": "龙之怒",
+      "type": "龙",
+      "category": "特殊",
+      "power": 0,
+      "accuracy": 100,
+      "pp": 10,
+      "effect": "造成固定40点伤害"
+    },
+    {
+      "id": 7,
+      "name": "龙之波动",
+      "type": "龙",
+      "category": "特殊",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 10,
+      "effect": "无特殊效果"
+    },
+    {
+      "id": 10,
+      "name": "水枪",
+      "type": "水",
+      "category": "特殊",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 25,
+      "effect": "无特殊效果"
+    },
+    {
+      "id": 11,
+      "name": "水之波动",
+      "type": "水",
+      "category": "特殊",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "effect": "有20%几率使目标混乱"
+    },
+    {
+      "id": 12,
+      "name": "冲浪",
+      "type": "水",
+      "category": "特殊",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "effect": "可以攻击潜水状态的精灵"
+    },
+    {
+      "id": 13,
+      "name": "水炮",
+      "type": "水",
+      "category": "特殊",
+      "power": 110,
+      "accuracy": 80,
+      "pp": 5,
+      "effect": "无特殊效果"
+    },
+    {
+      "id": 14,
+      "name": "潮汐",
+      "type": "水",
+      "category": "特殊",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 10,
+      "effect": "威力随HP变化"
+    },
+    {
+      "id": 15,
+      "name": "月亮之力",
+      "type": "妖精",
+      "category": "特殊",
+      "power": 95,
+      "accuracy": 100,
+      "pp": 15,
+      "effect": "有30%几率降低目标特攻"
+    },
+    {
+      "id": 16,
+      "name": "魔法闪耀",
+      "type": "妖精",
+      "category": "特殊",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 10,
+      "effect": "无特殊效果"
+    },
+    {
+      "id": 20,
+      "name": "抓",
+      "type": "普通",
+      "category": "物理",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "effect": "无特殊效果"
+    },
+    {
+      "id": 21,
+      "name": "撞击",
+      "type": "普通",
+      "category": "物理",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 35,
+      "effect": "无特殊效果"
+    },
+    {
+      "id": 22,
+      "name": "必杀门牙",
+      "type": "普通",
+      "category": "物理",
+      "power": 80,
+      "accuracy": 90,
+      "pp": 15,
+      "effect": "有10%几率使目标畏缩"
+    },
+    {
+      "id": 30,
+      "name": "藤鞭",
+      "type": "草",
+      "category": "物理",
+      "power": 45,
+      "accuracy": 100,
+      "pp": 25,
+      "effect": "无特殊效果"
+    },
+    {
+      "id": 31,
+      "name": "飞叶快刀",
+      "type": "草",
+      "category": "物理",
+      "power": 55,
+      "accuracy": 95,
+      "pp": 25,
+      "effect": "容易击中要害"
+    },
+    {
+      "id": 32,
+      "name": "能量球",
+      "type": "草",
+      "category": "特殊",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 10,
+      "effect": "有10%几率降低目标特防"
+    },
+    {
+      "id": 33,
+      "name": "阳光烈焰",
+      "type": "草",
+      "category": "特殊",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 10,
+      "effect": "第一回合蓄力，第二回合攻击"
+    }
+  ]
+}
